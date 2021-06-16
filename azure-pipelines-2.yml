@@ -8,8 +8,8 @@ trigger:
 
 pool:
   name: pool-self
-demands:
-- agent.name -equals docker-vm
+  demands:
+  - agent.name -equals docker-vm
 
 steps:
 - task: NodeTool@0
