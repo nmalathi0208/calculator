@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: pool-self
+  name: agentpool22
   demands:
-  - agent.name -equals docker-vm
+  - agent.name -equals docker
 
 steps:
 - task: NodeTool@0
