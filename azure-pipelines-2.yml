@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: agentpool22
+  name: july13
   demands:
-  - agent.name -equals docker
+  - agent.name -equals agent1
 
 steps:
 - task: NodeTool@0
